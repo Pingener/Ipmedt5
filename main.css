@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #181818;
+    background-color: #F1F1F2;
+}
+
+Button{
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.Button_primary{
+    background-color: #3EB1c0;
+}
+
+.Button_primary:hover{
+    background-color: #2DB7E2;
+    cursor: pointer;
+}
+
+.Button_primary:focus{
+    background-color: #8acdb9;
+}
+
+.Button_secondary{
+    background-color: #FFF;
+
+}
+
+.Button_secondary:hover{
+    background-color: #7fcfda;
+}
+
+.Button_secondary:focus{
+    background-color: #54cede;
+}
