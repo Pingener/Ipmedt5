@@ -4,6 +4,29 @@
     background-color: #F1F1F2;
 }
 
+.wrapper{
+    display: grid;
+    grid-template-rows: [row1-start] 20% [row1-end]  [row3-start] 30% [row3-end];
+    grid-gap: 0px;
+}
+
+body > div > header{
+    
+}
+
+body > div > footer{
+    padding-top: 80px;
+}
+
+body > div > section{
+    padding-top: 80px;
+}
+
+footer{
+    padding-bottom: 0px;
+}
+
+
 Button{
     width: 100px;
     height: 30px;
@@ -11,6 +34,7 @@ Button{
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
+    padding-top: 0px;
 }
 
 .Button_primary{
@@ -38,3 +62,4 @@ Button{
 .Button_secondary:focus{
     background-color: #54cede;
 }
+
