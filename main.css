@@ -4,34 +4,31 @@
     background-color: #F1F1F2;
 }
 
-body > div > h1{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 30px;
+ body > div > h1{
+    padding-bottom: 50px;
+    
 }
 
 body > div > figure{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
+    
 }
 
 body > div > h2{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 35px;
-}
-
-body > div > footer{
-    padding-top: 80px;
+    padding-bottom: 50px;
+    
 }
 
 body > div > section{
-    padding-top: 80px;
+    padding-bottom: 40px;
+    
 }
 
-footer{
-    padding-bottom: 0px;
+body > div > footer{
+    padding-top: 100px;
+
 }
+    
 
 Button{
     width: 100px;
@@ -41,6 +38,43 @@ Button{
     border-width: 2px;
     border-radius: 10px;
     padding-top: 0px;
+}
+
+.Button_Boven {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.Button_primary {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin: 5px;
+}
+ 
+.Button_Boven{
+    background-color: #3EB1c0;
+}
+
+.Button_Boven:hover{
+    background-color: #2DB7E2;
+    cursor: pointer;
+}
+
+.Button_boven:focus{
+    background-color: #8acdb9;
 }
 
 .Button_primary{
@@ -69,3 +103,11 @@ Button{
     background-color: #54cede;
 }
 
+
+ .wrapper {
+    text-align: center;
+}
+
+.button-container {
+    display: inline-block;
+}
