@@ -10,8 +10,21 @@
     grid-gap: 0px;
 }
 
-body > div > header{
-    
+body > div > h1{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+body > div > figure{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+body > div > h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 35px;
 }
 
 body > div > footer{
@@ -25,7 +38,6 @@ body > div > section{
 footer{
     padding-bottom: 0px;
 }
-
 
 Button{
     width: 100px;
