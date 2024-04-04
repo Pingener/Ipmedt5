@@ -32,7 +32,6 @@ Button{
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
-    padding-top: 0px;
 }
 
 .Button_Boven {
@@ -59,16 +58,63 @@ Button{
     font-size: 22px;
 }
 
-.Button_primary {
-    display: inline-block;
-    width: 300px;
-    height: 60px;
+.feed-buttons {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.Button_secondary {
+    width: 225px;
+    height: 55px; 
     border: solid;
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
-    margin: 25px;
     font-size: 22px;
+    margin: 10px; 
+    margin-left:  0px;
+    margin-bottom: 20px;
+}
+
+
+.feed-controls button {
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+span{
+    padding-left: 140px;
+    font-size: 20px;
+}
+
+.feed-controls{
+    display: flex;
+    align-items: center;
+}
+
+.Button_primary {
+    width: 225px; 
+    height: 55px; 
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 22px; 
+    margin: 10px; 
+    margin-bottom: 20px;
+}
+
+.feed_button_zelf{
+    padding-left: 800px;
 }
  
 .Button_Boven{
@@ -111,9 +157,18 @@ Button{
 }
 
 .Button_secondary{
-    background-color: #FFF;
-
+    background-color: #3EB1c0;
 }
+
+.Button_secondary:hover{
+    background-color: #2DB7E2;
+    cursor: pointer;
+}
+
+.Button_secondary:focus{
+    background-color: #8acdb9;
+}
+
  .wrapper {
     text-align: center;
 }
