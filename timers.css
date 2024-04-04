@@ -1,20 +1,26 @@
+header{
+    text-align: center;
+}
+
 .grid_container{
     display: grid;
     grid-template-areas: 'times . add_time';
     height: 400px;
+    margin-left:15%;
 }
 
 .timers_sect{
     grid-area: times;
     border: solid;
     border-color: #181818;
+    width: 300px;
 }
 
 .add_timer{
     grid-area: add_time;
     border: solid;
     border-color: #181818;
-    width: 500px;
+    width: 370px;
     
 }
 
@@ -30,7 +36,8 @@
 .button_list{
     grid-area: buttons;
     list-style: none;
-    margin-left: 30px;
+    padding: 22px;
+    padding-top: 0px;
 }
 
 .button_list li{
@@ -61,4 +68,13 @@
 .add_button{
     grid-area: add_button;
     margin-top: 220px;
+}
+
+.timer_container{
+    background-color: #3EB1c0;
+    height: 49px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 15px;
 }
