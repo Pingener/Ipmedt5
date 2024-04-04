@@ -1,7 +1,12 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: #181818;
-    background-color: #F1F1F2;
+  
+}
+
+body{
+    background: rgb(241,241,242);
+    background: radial-gradient(circle, rgba(241,241,242,1) 60%, rgba(62,177,192,1) 100%);
 }
 
 Button{
@@ -49,41 +54,7 @@ Input{
 .Button_secondary:focus{
     background-color: #54cede;
 }
-
- body > div > h1{
-    padding-bottom: 50px;
-}
-
-body > div > figure{
-    padding-bottom: 20px;
-}
-
-body > div > h2{
-    padding-bottom: 0px;
-}
-
-body > div > section{
-    padding-bottom: 0px;
-    padding-top: 50px;
-}
-
-body > div > footer{
-    padding-top: 40px
-}
-<<<<<<< HEAD
-
-Button{
-    width: 300px;
-    height: 60px;
-    border: solid;
-    border-color: #181818;
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-=======
     
->>>>>>> 6037130f3d43ef96eef0f713686c3fd5a68c53da
 .Button_Boven {
     display: inline-block;
     width: 300px;
@@ -92,7 +63,8 @@ Button{
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
-    margin: 25px;
+    margin-bottom: 15px;
+    
     font-size: 22px;
 }
 
@@ -112,6 +84,7 @@ Button{
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
+    margin-left: 26%;
 }
 
 .Button_secondary {
@@ -127,6 +100,9 @@ Button{
     margin-bottom: 20px;
 }
 
+.feed_ammount_button{
+    width: 225px;
+}
 
 .feed-controls button {
     width: 40px;
@@ -142,7 +118,7 @@ Button{
 }
 
 span{
-    padding-left: 140px;
+    margin-left: 40%;
     font-size: 20px;
 }
 
@@ -164,7 +140,7 @@ span{
 }
 
 .feed_button_zelf{
-    padding-left: 800px;
+    padding-left: 75px;
 }
  
 .Button_Boven{
