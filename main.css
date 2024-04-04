@@ -1,7 +1,12 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: #181818;
-    background-color: #F1F1F2;
+  
+}
+
+body{
+    background: rgb(241,241,242);
+    background: radial-gradient(circle, rgba(241,241,242,1) 60%, rgba(62,177,192,1) 100%);
 }
 
 Button{
@@ -80,6 +85,7 @@ Button{
     border-radius: 10px;
 }
 
+    
 .Button_Boven {
     display: inline-block;
     width: 300px;
@@ -88,7 +94,8 @@ Button{
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
-    margin: 25px;
+    margin-bottom: 15px;
+    
     font-size: 22px;
 }
 
@@ -108,6 +115,7 @@ Button{
     display: flex; 
     justify-content: flex-start; 
     align-items: center; 
+    margin-left: 26%;
 }
 
 .Button_secondary {
@@ -123,6 +131,9 @@ Button{
     margin-bottom: 20px;
 }
 
+.feed_ammount_button{
+    width: 225px;
+}
 
 .feed-controls button {
     width: 40px;
@@ -138,7 +149,7 @@ Button{
 }
 
 span{
-    padding-left: 140px;
+    margin-left: 40%;
     font-size: 20px;
 }
 
@@ -160,7 +171,7 @@ span{
 }
 
 .feed_button_zelf{
-    padding-left: 800px;
+    padding-left: 75px;
 }
  
 .Button_Boven{
