@@ -4,6 +4,32 @@
     background-color: #F1F1F2;
 }
 
+ body > div > h1{
+    padding-bottom: 50px;
+    
+}
+
+body > div > figure{
+    padding-bottom: 20px;
+    
+}
+
+body > div > h2{
+    padding-bottom: 50px;
+    
+}
+
+body > div > section{
+    padding-bottom: 40px;
+    
+}
+
+body > div > footer{
+    padding-top: 100px;
+
+}
+    
+
 Button{
     width: 100px;
     height: 30px;
@@ -11,6 +37,82 @@ Button{
     border-color: #181818;
     border-width: 2px;
     border-radius: 10px;
+    padding-top: 0px;
+}
+
+.Button_Boven {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.Button_primary {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin: 5px;
+}
+ 
+.Button_Boven{
+    background-color: #3EB1c0;
+}
+
+.Button_Boven:hover{
+    background-color: #2DB7E2;
+    cursor: pointer;
+}
+
+.Button_boven:focus{
+    background-color: #8acdb9;
+}
+
+Input{
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #3EB1c0;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas: 'times . add_time';
+    height: 400px;
+}
+
+.timers_sect{
+    grid-area: times;
+    border: solid;
+    border-color: #181818;
+}
+
+.add_timer{
+    grid-area: add_time;
+    border: solid;
+    border-color: #181818;
+    width: 500px;
+    
+}
+
+.grid_in_sect{
+    display: grid;
+    grid-template-areas: 
+    'buttons buttons'
+    'label input'
+    '. add_button';
+    position: relative;
 }
 
 Input{
@@ -111,4 +213,11 @@ Input{
 .add_button{
     grid-area: add_button;
     margin-top: 220px;
+}
+ .wrapper {
+    text-align: center;
+}
+
+.button-container {
+    display: inline-block;
 }
