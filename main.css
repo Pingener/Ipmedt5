@@ -4,6 +4,54 @@
     background-color: #F1F1F2;
 }
 
+Button{
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+Input{
+    height: 30px;
+    border: solid;
+    border-color: #181818;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #3EB1c0;
+}
+
+
+
+.Button_primary{
+    background-color: #3EB1c0;
+}
+
+.Button_primary:hover{
+    background-color: #2DB7E2;
+    cursor: pointer;
+}
+
+.Button_primary:focus{
+    background-color: #8acdb9;
+}
+
+.Button_secondary{
+    background-color: #FFF;
+
+}
+
+.Button_secondary:hover{
+    background-color: #7fcfda;
+}
+
+.Button_secondary:focus{
+    background-color: #54cede;
+}
+
+
+
  body > div > h1{
     padding-bottom: 50px;
     
@@ -29,17 +77,6 @@ body > div > footer{
 
 }
     
-
-Button{
-    width: 100px;
-    height: 30px;
-    border: solid;
-    border-color: #181818;
-    border-width: 2px;
-    border-radius: 10px;
-    padding-top: 0px;
-}
-
 .Button_Boven {
     display: inline-block;
     width: 100px;
@@ -77,82 +114,6 @@ Button{
     background-color: #8acdb9;
 }
 
-Input{
-    height: 30px;
-    border: solid;
-    border-color: #181818;
-    border-width: 2px;
-    border-radius: 10px;
-    background-color: #3EB1c0;
-}
-
-.grid_container{
-    display: grid;
-    grid-template-areas: 'times . add_time';
-    height: 400px;
-}
-
-.timers_sect{
-    grid-area: times;
-    border: solid;
-    border-color: #181818;
-}
-
-.add_timer{
-    grid-area: add_time;
-    border: solid;
-    border-color: #181818;
-    width: 500px;
-    
-}
-
-.grid_in_sect{
-    display: grid;
-    grid-template-areas: 
-    'buttons buttons'
-    'label input'
-    '. add_button';
-    position: relative;
-}
-
-Input{
-    height: 30px;
-    border: solid;
-    border-color: #181818;
-    border-width: 2px;
-    border-radius: 10px;
-    background-color: #3EB1c0;
-}
-
-.grid_container{
-    display: grid;
-    grid-template-areas: 'times . add_time';
-    height: 400px;
-}
-
-.timers_sect{
-    grid-area: times;
-    border: solid;
-    border-color: #181818;
-}
-
-.add_timer{
-    grid-area: add_time;
-    border: solid;
-    border-color: #181818;
-    width: 500px;
-    
-}
-
-.grid_in_sect{
-    display: grid;
-    grid-template-areas: 
-    'buttons buttons'
-    'label input'
-    '. add_button';
-    position: relative;
-}
-
 .Button_primary{
     background-color: #3EB1c0;
 }
@@ -179,41 +140,7 @@ Input{
     background-color: #54cede;
 }
 
-.button_list{
-    grid-area: buttons;
-    list-style: none;
-    margin-left: 30px;
-}
 
-.button_list li{
-    display: inline-block;
-}
-
-
-.day_button{
-    background-color: #3EB1c0;
-    width:42px;
-    grid-area: buttons;
-}
-
-.day_button:hover{
-    background-color: #2DB7E2;
-}
-
-.input_time{
-    width: 64px;
-    grid-area: input;
-}
-
-.label{
-    grid-area: label;
-    margin-left: 12px;
-}
-
-.add_button{
-    grid-area: add_button;
-    margin-top: 220px;
-}
  .wrapper {
     text-align: center;
 }
