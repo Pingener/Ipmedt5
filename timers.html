@@ -15,7 +15,9 @@
     </header>
     <div class="grid_container">
         <section class="timers_sect">
-            <section class="timer_container"></section>
+            <section class="timer_container">
+                <p class="time">10:00 </p>
+            </section>
         </section>
         <section class="add_timer">
             <div class="grid_in_sect">
@@ -29,7 +31,9 @@
                     <li><button class="day_button">Su</button></li>
                 </ul>
                 <p class="label">Time</p>
-                <input type="time" class="input_time">
+                <input type="time" min="09:00" max="18:00" required id="Test_DatetimeLocal" value="0:00" name="test" class="input_time">
+                <p class="label2">Amount</p>
+                <input type="number" class="input_amount" min="0" max="100">
                 <button class="Button_primary add_button">Add Moment</button>
 
             </div>

@@ -1,12 +1,18 @@
 header{
     text-align: center;
+    margin:auto;
+}
+
+body > div > section{
+    padding-top: 0px;
 }
 
 .grid_container{
     display: grid;
     grid-template-areas: 'times . add_time';
-    height: 400px;
-    margin-left:15%;
+    height: 300px;
+    width: 700px;
+    margin: auto;
 }
 
 .timers_sect{
@@ -14,13 +20,15 @@ header{
     border: solid;
     border-color: #181818;
     width: 300px;
+    height: 400px;
 }
 
 .add_timer{
     grid-area: add_time;
     border: solid;
     border-color: #181818;
-    width: 370px;
+    width: 300px;
+    height: 400px;
     
 }
 
@@ -29,15 +37,18 @@ header{
     grid-template-areas: 
     'buttons buttons'
     'label input'
+    'label2 input2'
     '. add_button';
     position: relative;
+    justify-items: end;
 }
 
 .button_list{
     grid-area: buttons;
     list-style: none;
-    padding: 22px;
+    padding: 0px;
     padding-top: 0px;
+    padding-right: 10px;
 }
 
 .button_list li{
@@ -47,7 +58,8 @@ header{
 
 .day_button{
     background-color: #3EB1c0;
-    width:42px;
+    width:36px;
+    height: 36px;
     grid-area: buttons;
 }
 
@@ -58,6 +70,7 @@ header{
 .input_time{
     width: 64px;
     grid-area: input;
+    margin-right: 10px;
 }
 
 .label{
@@ -65,9 +78,16 @@ header{
     margin-left: 12px;
 }
 
+.label2{
+    grid-area: label2;
+    margin-left: 12px;
+}
+
 .add_button{
     grid-area: add_button;
-    margin-top: 220px;
+    margin-top: 160px;
+    margin-right: 10px;
+    width: 225px;
 }
 
 .timer_container{
@@ -77,4 +97,13 @@ header{
     margin-left: 10%;
     border-radius: 10px;
     margin-top: 15px;
+}
+
+.time{
+    padding-top: 16px;
+}
+
+.input_amount{
+    width: 64px;
+    margin-right: 10px;
 }
