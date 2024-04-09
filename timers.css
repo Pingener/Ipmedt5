@@ -21,7 +21,7 @@ body > div > section{
     border: solid;
     border-color: #181818;
     width: 300px;
-    height: 400px;
+    height: 360px;
 }
 
 .add_timer{
@@ -29,8 +29,7 @@ body > div > section{
     border: solid;
     border-color: #181818;
     width: 300px;
-    height: 400px;
-    
+    height: 360px;    
 }
 
 .grid_in_sect{
@@ -39,9 +38,11 @@ body > div > section{
     'buttons buttons'
     'label input'
     'label2 input2'
-    '. add_button';
+    'label3 input3'
+    ;
     position: relative;
-    justify-items: end;
+    justify-items: start;
+    
 }
 
 .button_list{
@@ -71,35 +72,60 @@ body > div > section{
 .input_time{
     width: 64px;
     grid-area: input;
-    margin-right: 10px;
+    margin-right: 32px;
+    
+}
+
+.input_time2{
+    width: 64px;
+    grid-area: input2;
+    margin-right: 32px;
+    
+}
+
+.input_time3{
+    width: 64px;
+    grid-area: input3;
+    margin-right: 32px;
+    
 }
 
 .label{
     grid-area: label;
-    margin-left: 12px;
+    margin-left: 8px;
+    font-size: 24px;
 }
 
 .label2{
     grid-area: label2;
-    margin-left: 12px;
+    margin-left: 8px;
+    font-size: 24px;
+}
+
+.label3{
+    grid-area: label3;
+    margin-left: 8px;
+    font-size: 24px;
 }
 
 .add_button{
     grid-area: add_button;
-    margin-top: 160px;
+    margin-top: 16px;
     margin-right: 10px;
-    width: 225px;
+    width: 100px;
+    font-size: 16px;
+    height: 32px;
 }
 
 .timer_container{
     background-color: #3EB1c0;
-    height: 49px;
+    height: 88px;
     width: 80%;
     margin-left: 10%;
     border-radius: 10px;
     margin-top: 15px;
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .time{
