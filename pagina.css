@@ -9,6 +9,7 @@ body{
 }
 
 
+
 Button{
     width: 300px;
     height: 60px;
@@ -55,7 +56,31 @@ Button{
     font-size: 22px;
 
 }
+
+body > div > a{
+    padding-top: 50px;
+}
+
+body > div > form{
+    display: block;
+    
+}
  
+body > div > image{
+    padding-bottom: 20px;
+}
+
+.error{
+    padding: 20px;
+}
+
+body > div > form > {
+    padding: 3px;
+    margin: 5px;
+}
+
+
+
 .Button_Boven{
     background-color: #3EB1c0;
 }
