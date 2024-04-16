@@ -17,22 +17,39 @@
     </header>
     <div class="grid_container">
         <section class="timers_sect">
-            <section class="timer_container"></section>
+            <form method="POST" action="{{ url('/aanroepen') }}" class="timer_container">
+                <p> Your first feeding moment is: {{$tijd->tijd1}} </p>
+            </form>
+            <form method="POST" action="{{ url('/aanroepen') }}" class="timer_container">
+                <p> Your second feeding moment is: {{$tijd->tijd1}} </p>
+            </form>
+            <form method="POST" action="{{ url('/aanroepen') }}" class="timer_container">
+                <p> Your third feeding moment is: {{$tijd->tijd1}} </p>
+            </form>
         </section>
         <section class="add_timer">
             <div class="grid_in_sect">
-                <ul class="button_list">
-                    <li><button class="day_button">Mo</button></li>
-                    <li><button class="day_button">Tu</button></li>
-                    <li><button class="day_button">We</button></li>
-                    <li><button class="day_button">Th</button></li>
-                    <li><button class="day_button">Fr</button></li>
-                    <li><button class="day_button">Sa</button></li>
-                    <li><button class="day_button">Su</button></li>
-                </ul>
-                <p class="label">Time</p>
-                <input type="time" class="input_time">
-                <button class="Button_primary add_button">Add Moment</button>
+                <p class="label">First moment</p>
+                <form action="{{ url('/aanroepen') }}" method="POST" class="input_time">
+                    @csrf
+                    <input type="time" min="09:00" max="18:00" required id="Test_DatetimeLocal" value="0:00" name="test" >
+                
+                    <button type="submit" class="Button_primary add_button"> CONTINUE </button>
+                </form>
+                <p class="label2">Second Moment</p>
+                <form action="{{ url('/aanroepen') }}" method="POST" class="input_time2">
+                    @csrf
+                    <input type="time" min="09:00" max="18:00" required id="Test_DatetimeLocal" value="0:00" name="test" >
+                
+                    <button type="submit" class="Button_primary add_button"> CONTINUE </button>
+                </form>
+                <p class="label3">Third Moment</p>
+                <form action="{{ url('/aanroepen') }}" method="POST" class="input_time3">
+                    @csrf
+                    <input type="time" min="09:00" max="18:00" required id="Test_DatetimeLocal" value="0:00" name="test" >
+                
+                    <button type="submit" class="Button_primary add_button"> CONTINUE </button>
+                </form>
 
             </div>
         </section>
